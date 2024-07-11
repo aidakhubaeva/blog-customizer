@@ -1,4 +1,4 @@
-.container {
+.containerButton {
 	position: fixed;
 	top: 31px;
 	display: flex;
@@ -10,10 +10,14 @@
 	height: 100px;
 	background-color: #000000;
 	border-right: 1px;
-	transition: transform 0.5s ease;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #ffc802;
+	}
 }
 
-.container_open {
+.active {
 	transform: translate(616px);
 }
 
@@ -22,9 +26,10 @@
 	width: 48px;
 	height: 48px;
 	transform: rotate(180deg);
-	transition: transform 0.5s ease;
+	transition: transform 0.3s ease;
 }
 
-.arrow_open {
+.arrowClose {
 	transform: rotate(0deg);
+	transition: transform 0.3s ease;
 }

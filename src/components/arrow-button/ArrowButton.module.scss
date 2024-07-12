@@ -1,6 +1,7 @@
 .containerButton {
 	position: fixed;
 	top: 31px;
+	z-index: 1;
 	display: flex;
 	flex-shrink: 0;
 	justify-content: center;
@@ -18,7 +19,7 @@
 }
 
 .active {
-	transform: translate(616px);
+	transform: translate(615.6px);
 }
 
 .arrow {

@@ -9,7 +9,6 @@
 ---
 
 ### What Was Done:
-
 #### Blog page customization via a React-based sidebar:
 - ✅ **Sidebar functionality setup**:
   - Implemented mechanics for opening and closing the sidebar:
